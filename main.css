@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header right"
+    "col-1  col-1  col-2  col-2  right"
+    "col-1  col-1  col-2  col-2  right"
+    "col-1  col-1  col-2  col-2  right"
+    "footer footer footer footer footer";
+    margin-top: 10vh;
+}
+
+.header{
+    grid-area: header;
+}
+
